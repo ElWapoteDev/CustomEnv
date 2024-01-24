@@ -1,11 +1,13 @@
--- Custom LuaU env docs:
+## Documentación para el entorno LuaU personalizado
 
-## Variables Globales:
+### Variables Globales:
 
-- **OwnerPlayer:** `Player` - El jugador que ejecuta el script.
+- **OwnerPlayer:** `Player` - El jugador que ejecuta el script
+  - *Se puede usar en:* Servidor
 
-## Código:
+### Código:
 
 ```lua
-print(OwnerPlayer) -- Imprime la instancia del jugador actual propietario del ejecutor
+-- Imprime la instancia del jugador actual que está ejecutando el script
+print(OwnerPlayer)
 ```
