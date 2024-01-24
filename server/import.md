@@ -3,7 +3,7 @@
 Con esta función, puedes importar librerías personalizadas en tu script. A continuación, se muestra un ejemplo:
 
 ```lua
--- Ejemplo de importación de la librería "wax" y la clase "players"
+-- Importamos de la librería "wax" la clase "players"
 local players = from("wax"):import("players")
 
 -- Utilizar un método de la clase importada
