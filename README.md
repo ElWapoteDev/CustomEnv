@@ -8,6 +8,6 @@
 ### Código:
 
 ```lua
--- Imprime la instancia del jugador actual que está ejecutando el script
-print(OwnerPlayer)
+
+print(OwnerPlayer) -- Imprime la instancia del jugador actual que está ejecutando el script
 ```
